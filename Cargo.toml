@@ -14,9 +14,10 @@ name = "simd_sort"
 path = "src/main.rs"
 
 [dependencies]
+rand = "0.3"
 
 [dev-dependencies]
-criterion = "0.1.2"
+criterion = "0.3.1"
 
 [[bench]]
 name = "sort_bench"

@@ -15,6 +15,7 @@ path = "src/main.rs"
 
 [dependencies]
 rand = "0.3"
+packed_simd = "0.3.3"
 
 [dev-dependencies]
 criterion = "0.3.1"
